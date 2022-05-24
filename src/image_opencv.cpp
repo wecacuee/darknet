@@ -46,7 +46,7 @@ image mat_to_image(Mat m)
             }
         }
     }
-    rgbgr_image(im);
+    if (c == 3) rgbgr_image(im);
     return im;
 }
 
